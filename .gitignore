@@ -43,3 +43,15 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Платформы, которые не используем
+android/
+ios/
+linux/
+macos/
+windows/
+# IDE и системные файлы
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
