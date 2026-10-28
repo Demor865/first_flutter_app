@@ -11,7 +11,12 @@ void main() {
               colors: [Colors.white, Colors.blue, Colors.red],
             ),
           ),
-          child: Center(child: Text("Hello world!")),
+          child: const Center(
+            child: Text(
+              "Hello world!",
+              style: TextStyle(color: Colors.white, fontSize: 32),
+            ),
+          ),
         ),
       ),
     ),
