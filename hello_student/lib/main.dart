@@ -13,19 +13,28 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: const [
-              Text(
-                'Привет! Меня зовут Владислав.',
-                style: TextStyle(fontSize: 20),
-              ),
-              SizedBox(height: 10), // отступ между строками
-              Text(
-                'Я студент группы ИСП-241.',
-                style: TextStyle(fontSize: 20),
-              ),
-            ],
+          child: SingleChildScrollView(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                const Text(
+                  'Привет! Меня зовут Владислав.',
+                  style: TextStyle(fontSize: 20),
+                ),
+                const SizedBox(height: 10),
+                const Text(
+                  'Я студент группы ИСП-241.',
+                  style: TextStyle(fontSize: 20),
+                ),
+                const SizedBox(height: 30),
+
+                // Вставляем картинку по ссылке
+                Image.network(
+                  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzULzUXPN1QJA_4xX4pYhrXlmxW7sJePoQkLwlZk30EOjj_ZERjrk1K7A&s=10',
+                  width: 300,
+                ),
+              ],
+            ),
           ),
         ),
       ),
