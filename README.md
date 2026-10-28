@@ -1,17 +1,34 @@
-# first_flutter_app
+# Flutter Lab 3
 
-A new Flutter project.
+Мой первый проект на Flutter, созданный в рамках лабораторной работы №3. Приложение выводит приветствие на градиентном фоне.
 
-## Getting Started
+## Информация об авторе
 
-This project is a starting point for a Flutter application.
+Студент: Колесников Владислав Александрович
+Группа: ИСП-241
 
-A few resources to get you started if this is your first Flutter project:
+## Стек и версии
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter 3.x.x
+- Dart 3.x.x
+- Платформа: Web (Chrome)
+- IDE: VS Code
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Скриншот приложения
+
+![Скриншот приложения](img/step9_Колесников.png)
+
+## Как запустить
+
+1. Клонировать репозиторий: `git clone <https://github.com/Demor865/first_flutter_app.git>`
+2. Перейти в папку проекта: `cd first_flutter_app`
+3. Выполнить `flutter pub get`
+4. Запустить командой `flutter run -d chrome`
+
+## Что изучили
+
+1. Структуру Flutter-проекта и основные команды (`flutter create`, `flutter run`).
+2. Понятие виджета и дерева виджетов (Widget Tree).
+3. Базовые виджеты: `MaterialApp`, `Scaffold`, `Container`, `Center`, `Text`.
+4. Работу с Hot Reload (r) и Hot Restart (R).
+5. Оформление фона через `BoxDecoration` и `LinearGradient`, а также стилизацию текста через `TextStyle`.
